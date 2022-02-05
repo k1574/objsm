@@ -1,0 +1,7 @@
+<$MKINCDIR/config
+INCS = -Ishr/inc
+OBJNAME = sm
+CFILES = `{goblin ls *.c}
+HFILES = `{goblin ls shr/inc/$OBJNAME}
+ARFLAGS = r
+
